@@ -12,8 +12,8 @@ session_start();
 if(!isset($_SESSION['privat'])){
     $_SESSION['privat']=0;
 }
-$GLOBALS['appurl']= "/myWebPage/myWebPage/public";
-$GLOBALS['numAppurlFragments'] = 3;
+$GLOBALS['appurl']= "/Bewerbungsseite/myWebPage/myWebPage/public";
+$GLOBALS['numAppurlFragments'] = 4;
 require_once '../lib/Dispatcher.php';
 require_once '../lib/formbuilder/FormBuilder.php';
 require_once '../lib/View.php';

@@ -15,8 +15,8 @@ nav{
     color: #8b0000;
 
 }
-a:hover{
-  background-color: #7a0101;
+ul:hover{
+  color: #7a0101;
 }
 h1{
     color: darkred;
@@ -29,4 +29,28 @@ h3{
 }
 h4{
     color: #b90000;
+}
+#masterDiv {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+
+
+}
+.btn2{
+    color:white;
+}
+#HeaderDiv {
+    width:80% ;
+    float: right;
+    margin-right: 7%;
+    margin-left: auto;
+}
+#bilderDiv {
+    width: 20%;
+    float: left;
+    background-color: #7a0101;
+    height: 100%;
+
 }

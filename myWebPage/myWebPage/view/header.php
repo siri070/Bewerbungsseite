@@ -20,8 +20,12 @@
     <![endif]-->
   </head>
   <body>
+
     <nav class="navbar  navbar-fixed-top">
+
+        <div id="HeaderDiv">
       <div class="container">
+
         <div class="navbar-header">
           <button id="button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span id="span" class="sr-only">Toggle navigation</span>
@@ -40,7 +44,7 @@
             <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/portraet">Porträt</a></li>
             <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/informatik">Stärken</a></li>
             <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/informatikprojekte">Projekte</a></li>
-            <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/login">Schulische Leistungen</a></li>
+            <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/login">Vertauliches</a></li>
           </ul>
             <?php } else{?>
 
@@ -49,14 +53,19 @@
             <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/portraet">Porträt</a></li>
             <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/informatik">Stärken</a></li>
             <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/informatikprojekte">Projekte</a></li>
-            <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/login">Schulische Leistungen</a></li>
+            <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/login">Vertauliches</a></li>
             <li><a id="a_nav" href="<?= $GLOBALS['appurl']?>/login/logout">Logout</a></li>
           </ul>
             <?php }?>
         </div><!--/.nav-collapse -->
       </div>
+        </div>
     </nav>
 
     <div class="container">
 
-    <h1><?= $heading ?></h1>
+    <div id="masterDiv">
+
+        <h1><?= $heading ?></h1>
+    </div>
+
