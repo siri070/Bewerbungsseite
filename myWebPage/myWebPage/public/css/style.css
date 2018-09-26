@@ -1,0 +1,32 @@
+body {
+  padding-top: 50px;
+}
+nav{
+    background-color: darkred;
+}
+#a_nav{
+    color: white;
+
+}
+#span{
+    background-color: white;
+}
+#button{
+    color: #8b0000;
+
+}
+a:hover{
+  background-color: #7a0101;
+}
+h1{
+    color: darkred;
+}
+h2{
+    color: #9c0000;
+}
+h3{
+    color: #a40000;
+}
+h4{
+    color: #b90000;
+}
